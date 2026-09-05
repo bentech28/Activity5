@@ -1,0 +1,35 @@
+name: activite_acces_api
+description: Application météo Flutter - Architecture MVC + Provider + OpenWeather API
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icônes Cupertino (style iOS) fournies par défaut avec Flutter
+  cupertino_icons: ^1.0.8
+
+  # Permet d'effectuer des requêtes HTTP (GET, POST...) vers l'API OpenWeather
+  http: ^1.2.0
+
+  # Gestion d'état de l'application : relie le Contrôleur à la Vue (pattern MVC)
+  provider: ^6.1.2
+
+  # Formatage des dates/heures en français (ex: "mercredi 8 avril 2026")
+  intl: ^0.19.0
+
+  # Ajoute des animations fluides et déclaratives aux widgets
+  flutter_animate: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  inte
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
